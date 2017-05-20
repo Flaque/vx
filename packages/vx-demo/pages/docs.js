@@ -7,16 +7,17 @@ export default () => (
     <div className="page-left">
       <div className="comingsoon">
         <h1><a name="packages" />Packages</h1>
+        <code>// TODO: write docs</code>
       </div>
       <ul>
         <li>
-          <a href="/static/docs/vx-annotation.html"> @vx/annotation </a>
+          @vx/annotation
           <ul>
             <li>LinePath</li>
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-axis.html"> @vx/axis </a>
+          @vx/axis
           <ul>
             <li>
               <strong>/axis</strong>
@@ -46,7 +47,7 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-curve.html"> @vx/curve </a>
+          @vx/curve
           <ul>
             <li>curveBasis</li>
             <li>curveBasisClose</li>
@@ -69,14 +70,14 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-glyph.html"> @vx/glyph </a>
+          @vx/glyph
           <ul>
             <li>GlyphDot</li>
             <li>Glyph</li>
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-grid.html"> @vx/grid </a>
+          @vx/grid
           <ul>
             <li>Grid</li>
             <li>Columns</li>
@@ -84,19 +85,19 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-group.html"> @vx/group </a>
+          @vx/group
           <ul>
             <li>Group</li>
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-marker.html"> @vx/marker </a>
+          @vx/marker
           <ul>
             <li>Marker</li>
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-mock-data.html"> @vx/mock-data </a>
+          @vx/mock-data
           <ul>
             <li>
               <strong>/generators</strong>
@@ -116,7 +117,7 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-pattern.html"> @vx/pattern </a>
+          @vx/pattern
           <ul>
             <li>PatternCircles</li>
             <li>PatternHexagons</li>
@@ -128,15 +129,13 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-point.html">
-            @vx/point
-          </a>
+          @vx/point
           <ul>
             <li>Point</li>
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-responsive.html"> @vx/responsive </a>
+          @vx/responsive
           <ul>
             <li>
               <strong>/components</strong>
@@ -153,7 +152,7 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-scale.html"> @vx/scale </a>
+          @vx/scale
           <ul>
             <li>scaleBand</li>
             <li>scalePoint</li>
@@ -164,7 +163,7 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-shape.html"> @vx/shape </a>
+          @vx/shape
           <ul>
             <li>AreaClosed</li>
             <li>AreaStack</li>
@@ -174,7 +173,7 @@ export default () => (
           </ul>
         </li>
         <li>
-          <a href="/static/docs/vx-text.html"> @vx/text </a>
+          @vx/text
           <ul>
             <li>TextBackground</li>
             <li>TextOutline</li>
