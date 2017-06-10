@@ -15,9 +15,25 @@ const points = Mock.genRandomNormalPoints();
 
 Returns a series of random normal x,y points.  
 
+The returned points are in the format:
+
+``` js
+[[x, y, index], ...]
+```
+
+So an example usage might be:
+
+``` js
+const data = Mock.genRandomNormalPoints();
+
+// Define accessors
+const x = d => d[0] // x is the 0th index
+const y = d => d[1] // y is the 1th index
+```
+
 ### `Mock.getDateValue(n)`
 
-Generates `n` date values an hour apart from each other starting with the current time. 
+Generates `n` date values an hour apart from each other starting with the current time.
 
 ## Mocks
 
